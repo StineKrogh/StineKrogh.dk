@@ -5,22 +5,22 @@
     list-style: none;
     box-sizing: border-box;
 }
-
+/*genrelle styles*/
 body{
     font-family: adonis;
 }
-
+/* responsiv naviagtionsbar start*/
 nav{
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     height: 80px;
     width: 100%;
 }
 
 label.logo{
    color: #000066; 
-   font-size: 35px;
+   font-size: 40px;
    line-height: 80px;
-   padding: 0 100px;
+   padding: 0 30px;
    font-weight: bold;
 }
 
@@ -37,13 +37,13 @@ nav ul li{
 
 nav ul li a{
     color: #000066;
-    font-size: 17px;
+    font-size: 20px;
     padding:7px 13px;
     border-radius: 3px;
     text-transform:uppercase;
-    font-weight: bold;
+    
 }
-
+/*hover på links i navigationsbar*/
 a.active, a:hover{
     color: #B59ECA;
     transition: .5s;
@@ -67,11 +67,11 @@ a.active, a:hover{
 
 @media (max-width:952px){
     label.logo{
-        font-size: 30px;
+        font-size: 35px;
         padding-left: 50px;
     }
     nav ul li a{
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -96,7 +96,7 @@ a.active, a:hover{
 
     nav ul li a {
         font-size: 20px;
-        font-weight: bold;
+        
     }
     
     a:hover,a.active{
@@ -109,3 +109,35 @@ a.active, a:hover{
          
     }
 }
+/* responsiv naviagtionsbar slut */
+
+#box{
+    width: auto;
+    height: 550px;
+    background-color: #DFD6C5;
+    text-align: left;
+    padding: 100px;
+    
+}
+
+h1{
+    color: #000066;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 2;
+
+}
+p{
+    color: #B59ECA;
+    font-family:Kohinoor Bangla;
+    font-size: 20px;
+    width: 700px;
+    line-height: 2;
+}
+
+#mig{
+    float: right;
+    border-radius: 50%;
+    
+}
+
