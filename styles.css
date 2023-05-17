@@ -111,33 +111,57 @@ a.active, a:hover{
 }
 /* responsiv naviagtionsbar slut */
 
-#box{
+
+.velkommen{
     width: auto;
-    height: 550px;
+    height: 950px;
     background-color: #DFD6C5;
-    text-align: left;
-    padding: 100px;
-    
+    text-align: center;
+    padding: 40px;
 }
 
 h1{
     color: #000066;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 2;
-
+    font-size: 30px;
 }
+    
 p{
     color: #B59ECA;
-    font-family:Kohinoor Bangla;
-    font-size: 20px;
-    width: 700px;
+    font-family: Kohinoor Bangla;
+    margin-top: 20px;
     line-height: 2;
+    font-size: 20px;
+}
+#mig{
+    border-radius: 50%;
+    margin-top: 30px;
+    float: center;
+    width: 300px;
 }
 
-#mig{
-    float: right;
-    border-radius: 50%;
-    
+.btn{
+    display: inline-block;
+    padding: 20px 20px;
+    background: #B59ECA;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #F0F151;
+    margin-top: 20px;
+    float: none;
+}
+
+.btn:hover{
+    background: #000066;
+}
+
+
+@media(min-width: 858px){
+
+.velkommen{
+    width: auto;
+    height:700px;
+}
+
+
 }
 
