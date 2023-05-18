@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -111,13 +112,15 @@ a.active, a:hover{
 }
 /* responsiv naviagtionsbar slut */
 
-
+/*første section med billede og knap*/
 .velkommen{
-    width: auto;
+    width: 100%;
     height: 950px;
     background-color: #DFD6C5;
     text-align: center;
     padding: 40px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 h1{
@@ -132,36 +135,70 @@ p{
     line-height: 2;
     font-size: 20px;
 }
-#mig{
-    border-radius: 50%;
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 30px;
-    float: center;
-    width: 300px;
 }
 
+#mig{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+/*kontakt mig knap med hover*/
+
 .btn{
-    display: inline-block;
-    padding: 20px 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
     background: #B59ECA;
-    font-size: 1rem;
+    font-size: 20px;
     text-decoration: none;
     color: #F0F151;
-    margin-top: 20px;
-    float: none;
+
 }
 
 .btn:hover{
-    background: #000066;
+    background-color:#000066;
+    color: #B59ECA;
 }
 
 
-@media(min-width: 858px){
+@media screen and (min-width:600px) {
 
-.velkommen{
-    width: auto;
-    height:700px;
-}
+    .velkommen{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    }
 
+    @media screen and (min-width: 858px){
+        
+        
+        h1{
+            color: #000066;
+            font-size: 40px;
+        }
+            
+        p{
+            color: #B59ECA;
+            font-family: Kohinoor Bangla;
+            margin-top: 20px;
+            margin-left: 200px;
+            margin-right: 200px;
+            line-height: 2;
+            font-size: 20px;   
+        }
+        
+        #mig{
+            border-radius: 50%;
+            width: 350px;
+            height: 350px;
+        }
+    }
+        
+      
 
-}
-
+      
