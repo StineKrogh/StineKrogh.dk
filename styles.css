@@ -43,10 +43,13 @@ nav ul li a{
     font-size: 20px;
     padding:7px 13px;
     border-radius: 3px;
-    text-transform:uppercase;
-    
+    text-transform:uppercase;  
 }
+
+
 /*hover på links i navigationsbar*/
+
+
 a.active, a:hover{
     color: #B59ECA;
     transition: .5s;
@@ -139,6 +142,7 @@ p{
     line-height: 2;
     font-size: 20px;
 }
+
 .image-container{
     display: flex;
     flex-direction: column;
@@ -151,6 +155,8 @@ p{
     width: 300px;
     height: 300px;
 }
+
+
 /*kontakt mig knap med hover*/
 
 .btn{
@@ -168,7 +174,7 @@ p{
     color: #B59ECA;
 }
 
-/*responsiv første section*/
+/*responsiv første section med billed og knap*/
 
 @media screen and (min-width:600px) {
 
@@ -177,7 +183,7 @@ p{
         height: auto;
         padding: 40px;
     }
-    }
+}
 
 @media screen and (min-width: 858px){
         
@@ -188,12 +194,8 @@ p{
     }
             
     p{
-    color: #B59ECA;
-    font-family: Kohinoor Bangla;
-    margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
-    line-height: 2;
     font-size: 20px;   
     }
         
@@ -202,23 +204,23 @@ p{
     width: 350px;
     height: 350px;
         }
-    }
+}
 
-/*portefolio med flexbox*/
+/*portefolio med flexbox med tekst*/
     
 
- .cirkler_portefolio{
+ .cirkler_portfolio{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    }
+}
 
-.cirkler_portefolio img{
+.cirkler_portfolio img{
     width: auto;
     height: auto;   
-    }
+}
 
 
 .caption {
@@ -247,18 +249,18 @@ p{
     padding: 10px;
     margin-top: 100px;
     font-size: 15px;
-  }
+}
 
 
 
 
 
 @media screen and (min-width: 858px){
-    .cirkler_portefolio{
+    .cirkler_portfolio{
         margin-top: 50px;
     }
 
-    .cirkler_portefolio img{
+    .cirkler_portfolio img{
         width: 385px;
         height: 208px;   
     }
@@ -267,7 +269,7 @@ p{
     .caption {
         font-size: 40px;
         width: 200px;
-}
+    }
 
     .subtext{
         padding: 10px;
@@ -286,7 +288,7 @@ p{
   }
 
 
-  .box {
+.box {
     margin: 20px;
     text-align: center;
     line-height: 140px;
@@ -295,95 +297,92 @@ p{
     height: 400px;
     width: 300px;
     border-style: none;
-  }
+}
   
-  .text{
+.text{
     text-align:center;
     margin-top: 100px;
     margin-bottom: 20px;
     color: #000066;
     font-size: 20px;
-  }
+ }
 
-  @media screen and (min-width: 858px){
+
+@media screen and (min-width: 858px){
     .text{
         text-align:center;
         font-size: 25px;
-      }
-  }
+    }
+}
 
 
   /*om mig*/
 
-  .cirkler_ommig{
+.cirkler_ommig{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    }
+}
 
 .cirkler_ommig img{
     width: auto;
     height: auto;   
-    }
+}
 
-    @media screen and (min-width: 858px){
-        .cirkler_ommig img{
-            width: 277px;
-            height: 153px;   
-            }
+
+ @media screen and (min-width: 858px){
+    .cirkler_ommig img{
+        width: 277px;
+        height: 153px;   
+    }
         
-      }
+}
 
 
-      .kontaktmig{
-        float: left;
-        margin-right: 50px;
-        border-radius: 50%;
-        width: 300px;
-        height: 300px;
-        
+.kontaktmig{
+    float: left;
+    margin-right: 50px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;        
+}
+
+.subtext_ommig{
+    color: #000000;
+    text-align: left;
+    font-size: 18px;
+    font-family: Kohinoor Bangla;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: auto;   
+    line-height: 40px;
+}
+
+.highlight{
+    color: #B59ECA;
+    font-weight: bold;
     }
 
-    .subtext_ommig{
-        color: #000000;
-        text-align: left;
-        font-size: 15px;
-        font-family: Kohinoor Bangla;
-        margin-left: 30px;
-        margin-right: 30px;
-        overflow: auto;   
-        line-height: 40px;
-    }
-
-    .highlight{
-        color: #B59ECA;
-        font-weight: bold;
-    }
-
-    @media (max-width: 858px) {
-        .kontaktmig {
-            float: none;
-            display: block;
-            margin: 0 auto 20px; 
+@media (max-width: 858px) {
+    .kontaktmig {
+        float: none;
+        display: block;
+        margin: 0 auto 20px; 
         }
-    }
+ }
 
-    @media screen and (min-width: 1220px) {
-        .kontaktmig{
+@media screen and (min-width: 1220px) {
+    .kontaktmig{
         width: auto;
         height: auto;   
         margin-left: 50px;
         margin-right: 50px;
-        }
+    }
         
 
     .subtext_ommig{
-        color: #000000;
-        text-align: left;
-        font-size: 15px;
-        font-family: Kohinoor Bangla;
         margin-left: 550px;
         margin-right: 100px;
         margin-top: 100px;
@@ -394,60 +393,63 @@ p{
 
 
 
-    @media (max-width: 858px) {
-        .kontaktmig {
-            float: none;
-            display: block;
-            margin: 0 auto 20px; 
+@media (max-width: 858px) {
+    .kontaktmig {
+        float: none;
+        display: block;
+        margin: 0 auto 20px; 
         }
-    }
+}
+
 
     /*mine kvalifaktioner*/
 
+.cirkler_minkvalifikationer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    height: 100%;
+}
 
-    
+
+.mine.kvalifikationer img{
+    width: 284px;
+    height: 140px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+@media (min-width: 858px) {
     .cirkler_minkvalifikationer {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 70px;
-        height: 100%;
+        margin-top: 150px;
     }
-
-
+    
+    
     .mine.kvalifikationer img{
-        width: 284px;
-        height: 140px;
-        max-width: 100%;
-        max-height: 100%;
-    }
+         width: 384px;
+        height: 189px;
+    }   
+}
 
 
+.image-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
 
-    @media (min-width: 858px) {
-        .cirkler_minkvalifikationer {
-            margin-top: 150px;
-        }
-    
-    
-        .mine.kvalifikationer img{
-            width: 384px;
-            height: 189px;
-        }   
-    }
 
-    .image-grid{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 120px;
-    }
+.image-grid img{
+    margin: 10px;
+}
 
-    .image-grid img{
-        margin: 10px;
-    }
+
 
 /*kontakt mig*/
 
@@ -455,7 +457,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 
 .cirkler_kontaktmig img{
@@ -474,7 +476,8 @@ p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
 
 .tekst_kontaktmig{
     font-family: Kohinoor Bangla;
@@ -497,10 +500,10 @@ p{
 
 .kontakt-ikon i {
     margin-right: 10px; 
-  }
+}
 
 
-  @media screen and (min-width: 858px){
+@media screen and (min-width: 858px){
     
     .cirkler_kontaktmig img{
         width: auto;
@@ -512,7 +515,7 @@ p{
         margin-top: 100px;
         font-size: 40px;
         
-      }
+    }
     
     .tekst_kontaktmig{
         
@@ -530,19 +533,19 @@ p{
         margin-right: 10px; 
       }
 
-  }
+}
 
     
   
 
- .socialmedia{
+.socialmedia{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
- }
+}
 
- .fa {
+.fa {
     padding: 20px;
     font-size: 40px;
     width: 50px;
@@ -550,29 +553,21 @@ p{
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    margin-bottom: 30px;
-    
-  }
- .fa-facebook {
- 
+    margin-bottom: 30px;  
+ }
+
+
+.fa-facebook {
     color: #000066;
  }
 
- .fa-instagram{
-   
+.fa-instagram{
     color: #B59ECA;
  }
 
- .fa-linkedin{
-    
+.fa-linkedin{
     color:#F0F151 ;
  }
-
-
-
-
-
-
 
 
 /*footer*/
@@ -597,24 +592,18 @@ h3{
 .footlink{
     color: #000066;
     margin: 10px;
-   
-
-    
 }
 
 
 
 
-
-
-
-/*css for kun portefolio side start*/
+/*css for kun portfolio.html side start*/
 
 .mine_projketer{
     text-align: left;
 }
 
-.subtext_portefolio{
+.subtext_portfolio{
     position: absolute;
     text-align: center;
     top: 50%;
@@ -634,7 +623,7 @@ h3{
     margin-left: 30px; 
 }
 
-.tekst_portefolio{
+.tekst_portfolio{
     font-size: 15px;
     color: #000000;
     margin-left: 30px;
@@ -644,26 +633,25 @@ h3{
 
 /* image container, med billeder af mine projekter/arbjede*/
 
-.image-container-portefolio{
+.image-container-portfolio{
     flex-wrap: wrap;
     display:flex;
     justify-content: left;
 }
 
-.image-container-portefolio img{
+.image-container-portfolio img{
     margin-top: 50px;
     margin-left: 30px;
-    margin-right: 30px;
-    
-    
+    margin-right: 30px; 
 }
 
 @media screen and (max-width: 500px){ /*billederne gøres responsive*/
 
-    .image-container-portefolio img{
+    .image-container-portfolio img{
         width: 80%; 
     }  
 }
+
 
  /*Animation*/
 .sprite {
@@ -685,7 +673,7 @@ h3{
 
 @media screen and (min-width: 858px){
  
-    .subtext_portefolio{
+    .subtext_portfolio{
         margin-top: 50px;
         font-size: 20px
     }
@@ -695,7 +683,7 @@ h3{
         margin-left: 100px;
     }
     
-    .tekst_portefolio{
+    .tekst_portfolio{
         font-size: 20px;
         margin-left: 100px;
     }
@@ -704,7 +692,7 @@ h3{
        margin-left: 100px;
     }
 
-    .image-container-portefolio img{
+    .image-container-portfolio img{
         margin-left: 100px;
     }
     .footer{
